@@ -6,6 +6,8 @@ This is a starter repo based on the
 [Gatsby](http://gatsbyjs.org/) and [Reveal.js](https://revealjs.com) and the
 back-end code execution uses [Binder](https://mybinder.org) 💖
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e4cf821e-dbf7-4da0-a89f-64b03235ab59/deploy-status)](https://app.netlify.com/sites/loadtest/deploys)
+
 _This repo could use some better code examples. Also, if you have experience
 with R, feel free to suggest improvements to the
 [test logic and template](#adding-tests). It all works as expected, but there
