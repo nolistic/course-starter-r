@@ -1,15 +1,15 @@
 {
-    "courseId": "course-starter-r",
-    "title": "My cool online course",
-    "slogan": "A free online course",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat semper urna, in accumsan sapien dui ac mi. Pellentesque felis lorem, semper nec velit nec, consectetur placerat enim.",
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat semper urna.",
+    "courseId": "loadtest101",
+    "title": "load testing with loadtest - a primer",
+    "slogan": "APIs but Stronger",
+    "description": "The industry-standard performance testing tool JMeter comes with all the bells and whistles for the most intricate xml-based performance tests you can imagine... but often what you need to understand is simply 'how many people can use this at once?' Abstracting away the complexities of load testing and JMeter, loadtest allows for straight-forward performance testing accompanied with detailed visualizations and results handily available - all from the comfort of R.",
+    "bio": "Heather Nolis, machine learning engineer.",
     "siteUrl": "https://course-starter-r.netlify.com",
-    "twitter": "spacy_io",
+    "twitter": "heatherklus",
     "fonts": "IBM+Plex+Mono:500|IBM+Plex+Sans:700|Lato:400,400i,700,700i",
     "testTemplate": "success <- function(text) {\n    cat(paste(\"\\033[32m\", text, \"\\033[0m\", sep = \"\"))\n}\n\n.solution <- \"${solutionEscaped}\"\n\n${solution}\n\n${test}\ntryCatch({\n    test()\n}, error = function(e) {\n    cat(paste(\"\\033[31m\", e[1], \"\\033[0m\", sep = \"\"))\n})",
     "juniper": {
-        "repo": "ines/course-starter-r",
+        "repo": "iness/course-starter-r",
         "branch": "binder",
         "lang": "r",
         "kernelType": "ir",
@@ -17,9 +17,9 @@
     },
     "showProfileImage": true,
     "footerLinks": [
-        { "text": "Website", "url": "https://spacy.io" },
+        { "text": "Website", "url": "https://medium.com/tmobile-tech/loadtest-an-r-package-for-load-testing-23efeeb370a5" },
         { "text": "Source", "url": "https://github.com/ines/course-starter-r" },
-        { "text": "Built with ♥", "url": "https://github.com/ines/course-starter-r" }
+        { "text": "Framework ♥", "url": "https://github.com/ines/course-starter-r" }
     ],
     "theme": "#de7878"
 }
