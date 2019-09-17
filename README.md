@@ -7,13 +7,12 @@ This is a starter repo based on the
 back-end code execution uses [Binder](https://mybinder.org) 💖
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e4cf821e-dbf7-4da0-a89f-64b03235ab59/deploy-status)](https://app.netlify.com/sites/loadtest/deploys)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nolistic/loadtest-tutorial/binder)
 
 _This repo could use some better code examples. Also, if you have experience
 with R, feel free to suggest improvements to the
 [test logic and template](#adding-tests). It all works as expected, but there
 might be ways to make it more elegant._
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ines/courser-starter-r)
 
 [![](https://user-images.githubusercontent.com/13643239/56341448-68fe9380-61b5-11e9-816f-5c71ae71b94f.png)](https://course-starter-r.netlify.com)
 
