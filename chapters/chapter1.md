@@ -1,8 +1,7 @@
 ---
-title: 'Chapter 1: Getting started'
+title: 'Chapter 1: Performance Testing'
 description:
-  'This chapter will teach you about many cool things and introduce you to the
-  most important concepts of the course.'
+  'Behold! An introduction to performance testing APIs and why you, and R developer, should care about it.'
 prev: null
 next: /chapter2
 type: chapter
@@ -16,26 +15,26 @@ id: 1
 
 </exercise>
 
-<exercise id="2" title="Getting Started">
+<exercise id="2" title="Knowledge check!">
 
-Let's ask some questions about the slides. Whats the correct answer?
+Which of the following is a straight-up lie?
 
 <choice>
-<opt text="Answer one">
+<opt text="Most non-technical people don't use APIs. ">
 
-This is not the correct answer.
-
-</opt>
-
-<opt text="Answer two" correct="true">
-
-Good job!
+This is incorrect! Websites are APIs. You're using an API right now!
 
 </opt>
 
-<opt text="Answer three">
+<opt text="R really shouldn't be used to make APIs" correct="true">
 
-This is not correct either.
+Good job! It's easy to make production-standard APIs from R using the plumber package.
+
+</opt>
+
+<opt text="We don't talk about the old plumber logo.">
+
+C'mon! It was way less cool!
 
 </opt>
 </choice>

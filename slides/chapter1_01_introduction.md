@@ -2,38 +2,51 @@
 type: slides
 ---
 
-# Introduction
-
-Notes: Text at the end of a slide prefixed like this will be displayed as
-speaker notes on the side. Slides can be separated with a divider: ---.
+# Introduction to APIs
 
 ---
 
-# This is a slide
+# What is an API?
 
-```r
-# Print something
-print("Hello world", quote = FALSE)
-```
+- **A**pplication **P**rogram **I**nterface
+- APIs are an easy way for two pieces of software to talk to each other, passing information.
 
-```out
-Hello world
-```
-
-- Slides can have code, bullet points, tables and pretty much all other Markdown
-  elements.
-- This is another bullet point.
-
-<img src="profile.jpg" alt="This image is in /static" width="25%">
-
-Notes: Some more notes go here
+<center><img src="hmm.png" alt="This image is in /static" width="25%"></center>
 
 ---
 
-# Let's practice!
+# An example API flow
 
-Notes: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique
-libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non
-commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat
-semper urna, in accumsan sapien dui ac mi. Pellentesque felis lorem, semper nec
-velit nec, consectetur placerat enim.
+When you open up the weather app on your phone, it probably: 
+
+1. Gets your GPS coordinates
+2. Calls a location API with your GPS coordinates.
+3. Gets back the nearest city to you.
+4. Calls a weather.com API with your current city.
+5. Gets back the forecast for your location.
+6. Displays this information on your screen.
+
+<img src="weather.png" alt="This image is in /static" width="30%">
+
+---
+
+# Must-Know API Facts
+
+- R uses plumber to create APIs in just a few lines of code
+- APIs usually look like website urls (example: http://pets.nolisllc.com/names)
+- "Endpoint" refers to the specific URL
+
+<center><img src="plumber.png" alt="This image is in /static" width="25%"></center>
+
+
+---
+
+# To learn more
+
+if you want to learn more about creating APIs in R, [checkout this blog series](https://medium.com/tmobile-tech/r-can-api-c184951a24a3 "R can API and so can U")
+
+<img src="apiblog.png" alt="This image is in /static" width="50%">
+
+---
+
+# Onto testing!
